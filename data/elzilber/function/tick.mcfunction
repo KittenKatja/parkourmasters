@@ -11,7 +11,7 @@ clear @a nether_star
 #for elzilber 
 execute if items entity elzilber weapon.offhand moss_block run execute at elzilber run tp @n[type=armor_stand,tag=el_d_c] ~-0.15 ~1.9 ~-0.15
 execute unless items entity elzilber weapon.offhand moss_block run execute run tp @e[type=armor_stand,tag=el_d_c] 219 95 -26
-execute at @e[type= armor_stand,tag=el_d_c] run rotate @n[type=armor_stand,tag=el_d_c] ~-8 ~
+execute at @e[type=armor_stand,tag=el_d_c] run rotate @n[type=armor_stand,tag=el_d_c] ~-8 ~
 
 execute at @n[type=armor_stand,tag=el_d_c] run tp @e[type=block_display,name=el_d_ol_1] ~ ~ ~
 execute at @n[type=armor_stand,tag=el_d_c] run tp @e[type=block_display,name=el_d_ol_2] ~ ~0.3 ~
