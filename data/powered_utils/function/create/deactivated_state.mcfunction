@@ -1,0 +1,1 @@
+$data modify storage powered_utils:data create.deactivated_state set value "$(state)"

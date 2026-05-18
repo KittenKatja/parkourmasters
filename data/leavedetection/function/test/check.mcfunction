@@ -1,0 +1,1 @@
+$data remove storage parkour:data players_online[{name:"$(lastKnownName)"}]

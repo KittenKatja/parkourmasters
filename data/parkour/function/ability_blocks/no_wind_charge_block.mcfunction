@@ -1,0 +1,1 @@
+execute as @s[scores={parkour.windmap=1},gamemode=!creative] run clear @s wind_charge[max_stack_size=99,custom_data={nodrop:true}] 99

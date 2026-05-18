@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "nbt": "result",
+      "storage": "gradient_gen:gradient_gen",
+      "source": "storage",
+      "interpret": true,
+      "extra": [
+        ""
+      ],
+      "italic": false
+    },
+    "conditions": []
+  }

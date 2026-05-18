@@ -1,0 +1,2 @@
+execute if items entity @s player.cursor *[custom_data~{map:aether}] run function parkour:map/dropper/aether
+execute if items entity @s player.cursor *[custom_data~{map:dropper}] run function parkour:map/dropper/dropper

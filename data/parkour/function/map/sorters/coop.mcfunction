@@ -1,0 +1,1 @@
+execute if items entity @s player.cursor *[custom_data~{map:quartzcoop}] run function parkour:map/coop/quartzcoop

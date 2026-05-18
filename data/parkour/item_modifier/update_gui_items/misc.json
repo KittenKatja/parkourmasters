@@ -1,0 +1,29 @@
+{
+    "function": "minecraft:set_name",
+    "target": "item_name",
+    "entity": "this",
+    "name": {
+      "text": "ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs ᴍᴀᴘs",
+      "color": "#FFFF8B",
+      "italic": false,
+      "extra": [
+        {
+          "text": " (",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "nbt": "maps.misc.count",
+          "storage": "parkour:data",
+          "interpret": false,
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " maps)",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }

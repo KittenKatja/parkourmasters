@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ $(deactivated_state)

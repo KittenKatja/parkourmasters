@@ -1,0 +1,11 @@
+execute if items entity @s player.cursor *[custom_data~{map:blocks}] run function parkour:map/pk/blocks
+execute if items entity @s player.cursor *[custom_data~{map:playground}] run function parkour:map/pk/playground
+execute if items entity @s player.cursor *[custom_data~{map:grasslands}] run function parkour:map/pk/grasslands
+execute if items entity @s player.cursor *[custom_data~{map:underground}] run function parkour:map/pk/underground
+execute if items entity @s player.cursor *[custom_data~{map:circle}] run function parkour:map/pk/circle
+execute if items entity @s player.cursor *[custom_data~{map:blocks2}] run function parkour:map/pk/blocks2
+execute if items entity @s player.cursor *[custom_data~{map:backroom_dash}] run function parkour:map/pk/backroom_dash
+execute if items entity @s player.cursor *[custom_data~{map:plankjump}] run function parkour:map/pk/plankjump
+execute if items entity @s player.cursor *[custom_data~{map:backrooms_dash_2}] run function parkour:map/pk/backrooms_dash_2
+execute if items entity @s player.cursor *[custom_data~{map:backrooms_dash_3}] run function parkour:map/pk/backrooms_dash_3
+execute if items entity @s player.cursor *[custom_data~{map:fallback}] run function parkour:map/pk/fallback

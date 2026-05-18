@@ -1,0 +1,1 @@
+function new_stopwatch:display_timer_prep with storage stopwatch:data

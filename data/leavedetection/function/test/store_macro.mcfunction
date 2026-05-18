@@ -1,0 +1,1 @@
+$data modify storage parkour:data players_online[{name:"$(lastKnownName)"}].UUID set from entity @s UUID

@@ -1,0 +1,1 @@
+execute align xyz positioned ~.5 ~.5 ~.5 summon marker run function powered_utils:create/macro

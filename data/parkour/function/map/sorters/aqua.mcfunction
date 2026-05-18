@@ -1,0 +1,1 @@
+execute if items entity @s player.cursor *[custom_data~{map:sandyshore}] run function parkour:map/aqua/sandyshore

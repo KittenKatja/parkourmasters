@@ -1,0 +1,10 @@
+{
+    "values": [
+    "parkour:tick",
+    "new_stopwatch:tick",
+    "powered_utils:tick",
+    "timer:tick",
+    "elzilber:tick",
+    "leavedetection:tick"
+    ]
+}

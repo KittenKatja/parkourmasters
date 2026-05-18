@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ $(activated_state)

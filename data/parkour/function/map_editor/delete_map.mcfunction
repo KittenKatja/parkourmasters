@@ -1,0 +1,1 @@
+tellraw @s "go to deli_man function and put in your id like {id:your ids place in the storage list}"

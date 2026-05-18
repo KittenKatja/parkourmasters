@@ -1,0 +1,27 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "mode": "replace_section",
+    "offset": 1,
+    "size": 1,
+    "lore": [
+      {
+        "text": "",
+        "italic": false,
+        "extra": [
+          {
+            "nbt": "maps.votes",
+            "storage": "parkour:data",
+            "interpret": false,
+            "color": "green",
+            "italic": false
+          },
+          {
+            "text": " votes",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    ]
+  }

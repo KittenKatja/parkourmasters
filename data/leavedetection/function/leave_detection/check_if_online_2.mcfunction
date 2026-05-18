@@ -1,0 +1,1 @@
+$execute unless entity $(Name) run function leavedetection:leave_detection/leave {Name:"$(Name)"}

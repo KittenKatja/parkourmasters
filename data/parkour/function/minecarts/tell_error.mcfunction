@@ -1,0 +1,1 @@
+$tellraw @a[tag=is_admin] {color:red,bold:true,text:'ERROR: the block at "$(X) $(Y) $(Z)" needs to be air for the minecart jumping code to work!'}

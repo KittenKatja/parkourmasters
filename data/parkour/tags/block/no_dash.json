@@ -1,0 +1,15 @@
+{
+    "values": [
+      "#minecraft:air",
+      "#minecraft:flowers",
+      "#crops",
+      "#coral_plants",
+      "#wall_corals",
+      "#all_signs",
+      "#banners",
+      "#buttons",
+      "minecraft:water",
+      "#replaceable",
+      "smooth_basalt"
+    ]
+  }

@@ -1,0 +1,1 @@
+$data remove storage stopwatch:player_data players[{UUID:$(UUID)}]

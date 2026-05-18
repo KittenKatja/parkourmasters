@@ -1,0 +1,1 @@
+execute if items entity @s player.cursor *[custom_data~{map:portaltutorial}] run function parkour:map/portal/portaltutorial

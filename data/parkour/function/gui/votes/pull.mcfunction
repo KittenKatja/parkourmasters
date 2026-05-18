@@ -1,0 +1,2 @@
+$execute if data storage parkour:votes maps.$(map).count run data modify storage parkour:data maps.votes set from storage parkour:votes maps.$(map).count
+$execute unless data storage parkour:votes maps.$(map).count run data modify storage parkour:data maps.votes set value 0

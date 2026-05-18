@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "parkour:data"
+    },
+    "ops": [
+      {
+        "source": "map_id",
+        "target": "map",
+        "op": "replace"
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "parkour:data"
+    },
+    "ops": [
+      {
+        "source": "category",
+        "target": "category",
+        "op": "replace"
+      }
+    ],
+    "conditions": []
+  }
+]

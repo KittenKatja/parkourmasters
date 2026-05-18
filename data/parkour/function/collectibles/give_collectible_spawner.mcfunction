@@ -1,0 +1,4 @@
+
+give @p blaze_spawn_egg[entity_data={id:"minecraft:item_display",item_display:"none",Tags:["collectible"],CustomName:"Collectible",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:coal",count:1,components:{"minecraft:item_model":"parkour:star"}}},custom_name={"color":"white","shadow_color":-22016,"text":"Collectible Spawn Egg","underlined":true}] 1
+
+#give @p blaze_spawn_egg[entity_data={id:"minecraft:item_display",Tags:["collectible","new_collectible"],CustomName:"Collectible",item:{id:"minecraft:coal",components:{"minecraft:item_model":"parkour:star"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]}},custom_name={"text":"Collectible Spawn Egg","color":"white","underlined":true}] 1

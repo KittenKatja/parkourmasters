@@ -1,0 +1,1 @@
+$return run execute positioned $(activator) if predicate parkour:is_powered

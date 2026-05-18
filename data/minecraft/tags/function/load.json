@@ -1,0 +1,11 @@
+{
+    "values": [
+    "parkour:load",
+    "gradient_gen:load",
+    "new_stopwatch:load",
+    "timer:load",
+    "elzilber:load",
+    "leaderboard:commands/reset",
+    "leavedetection:load"
+    ]
+}

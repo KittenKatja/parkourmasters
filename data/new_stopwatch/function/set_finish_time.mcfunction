@@ -1,0 +1,1 @@
+$execute store result storage stopwatch:player_data players[{UUID:$(UUID)}].time int 1 run scoreboard players get @s timer

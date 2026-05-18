@@ -1,0 +1,1 @@
+$http headers value {"Content-Type":"application/json"} body value '{ "content": "$(text)"}' send "https://discord.com/api/webhooks/1481364509363802184/UlmjJnFrJYnzyz4iGn7X9mjcImvvS-yy6k8dQiBxfoM1RC2t0zTmZDfGV5AnNFSDr-yd" POST

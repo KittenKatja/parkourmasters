@@ -1,0 +1,1 @@
+execute if entity @s[tag=!nocheckpoints] run function parkour:items/macrocheckpoint with storage parkour:store temp

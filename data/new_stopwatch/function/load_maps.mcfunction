@@ -1,0 +1,52 @@
+data remove storage stopwatch:data maps
+data modify storage stopwatch:data maps.pk append value blocks
+data modify storage stopwatch:data maps.mace append value endburst
+data modify storage stopwatch:data maps.mace append value hazelhell
+data modify storage stopwatch:data maps.slime append value min
+data modify storage stopwatch:data maps.pk append value playground
+data modify storage stopwatch:data maps.mace append value easy
+data modify storage stopwatch:data maps.maze append value azalea
+data modify storage stopwatch:data maps.mace append value hard
+data modify storage stopwatch:data maps.pk append value grasslands
+data modify storage stopwatch:data maps.mace append value mountain
+data modify storage stopwatch:data maps.mace append value amountain
+data modify storage stopwatch:data maps.maze append value basement
+data modify storage stopwatch:data maps.pk append value underground
+data modify storage stopwatch:data maps.pk append value circle
+data modify storage stopwatch:data maps.maze append value dungeons
+data modify storage stopwatch:data maps.maze append value pkmaze
+data modify storage stopwatch:data maps.maze append value old
+data modify storage stopwatch:data maps.mace append value greenglassmace
+data modify storage stopwatch:data maps.mace append value color
+data modify storage stopwatch:data maps.mace append value surfacemace
+data modify storage stopwatch:data maps.mace append value macemountain3
+data modify storage stopwatch:data maps.mace append value macemountain4
+data modify storage stopwatch:data maps.elytra append value elytrarings
+data modify storage stopwatch:data maps.dropper append value aether
+data modify storage stopwatch:data maps.ability append value dash
+data modify storage stopwatch:data maps.ability append value tutorial
+data modify storage stopwatch:data maps.ability append value hyperdash
+data modify storage stopwatch:data maps.mace append value pale
+data modify storage stopwatch:data maps.mace append value macepinnacle
+data modify storage stopwatch:data maps.elytra append value meteor
+data modify storage stopwatch:data maps.mace append value white
+data modify storage stopwatch:data maps.mace append value frost
+data modify storage stopwatch:data maps.dropper append value dropper
+data modify storage stopwatch:data maps.pk append value blocks2
+data modify storage stopwatch:data maps.ability append value speedashing
+data modify storage stopwatch:data maps.pearl append value waterpark
+data modify storage stopwatch:data maps.elytra append value yesthisisthemap
+data modify storage stopwatch:data maps.ability append value practice
+data modify storage stopwatch:data maps.coop append value quartzcoop
+
+data remove storage stopwatch:data category
+data modify storage stopwatch:data category append value pk
+data modify storage stopwatch:data category append value mace
+data modify storage stopwatch:data category append value slime
+data modify storage stopwatch:data category append value maze
+data modify storage stopwatch:data category append value elytra
+data modify storage stopwatch:data category append value dropper
+data modify storage stopwatch:data category append value ability
+data modify storage stopwatch:data category append value pearl
+data modify storage stopwatch:data category append value coop
+

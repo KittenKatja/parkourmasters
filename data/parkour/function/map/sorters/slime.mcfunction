@@ -1,0 +1,1 @@
+execute if items entity @s player.cursor *[custom_data~{map:min}] run function parkour:map/slime/min

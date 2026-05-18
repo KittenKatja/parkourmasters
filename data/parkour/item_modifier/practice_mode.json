@@ -1,0 +1,5 @@
+{
+    "function": "minecraft:set_custom_data",
+    "tag": "{practice_mode:true}",
+    "conditions": []
+  }

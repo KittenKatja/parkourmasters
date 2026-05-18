@@ -1,0 +1,1 @@
+return run function powered_utils:tick/check_powered_macro with storage powered_utils:data

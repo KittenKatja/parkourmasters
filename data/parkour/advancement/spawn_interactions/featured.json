@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": {"Tags": ["spawn.featured"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "parkour:spawn_interactions/featured"
+    }
+}

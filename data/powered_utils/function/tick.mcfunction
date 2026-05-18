@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=block_state_switch] at @s run function powered_utils:tick/activate_powerable with entity @s data

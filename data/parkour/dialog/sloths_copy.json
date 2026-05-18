@@ -1,0 +1,189 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Map Maker",
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "name",
+      "label": "Map name:",
+      "initial": "Mace Run"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "player",
+      "label": "Minecraft Username:",
+      "initial": "sea4_18"
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "rank",
+      "label": "Legitimoose Rank",
+      "options": [
+        {
+          "id": "default",
+          "display": "Default/None"
+        },
+        {
+          "id": "am",
+          "display": "AM"
+        },
+        {
+          "id": "fm",
+          "display": "FM"
+        },
+        {
+          "id": "fm2",
+          "display": "FM²"
+        },
+        {
+          "id": "xm",
+          "display": "XM"
+        },
+        {
+          "display": "Independant/External Builder",
+          "id": "ib"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:text",
+      "key": "hex1",
+      "label": "Uppercase Hex Gradient Start:",
+      "initial": "1E3CFF"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "hex2",
+      "label": "Uppercase Hex Gradient End:",
+      "initial": "FFFFFF"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "icon",
+      "label": "Icon (Item ID):",
+      "initial": "stone"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "map_id",
+      "label": "Map ID:",
+      "initial": "macerun"
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "category",
+      "label": "Category",
+      "options": [
+        {
+          "id": "dropper",
+          "display": "Dropper"
+        },
+        {
+          "id": "escape",
+          "display": "Escape Room"
+        },
+        {
+          "id": "maze",
+          "display": "Maze"
+        },
+        {
+          "id": "mace",
+          "display": "Mace"
+        },
+        {
+          "id": "elytra",
+          "display": "Elytra"
+        },
+        {
+          "id": "ability",
+          "display": "Ability Blocks"
+        },
+        {
+          "id": "pearl",
+          "display": "Ender Pearl"
+        },
+        {
+          "id": "slime",
+          "display": "Slime Block"
+        },
+        {
+          "id": "pk",
+          "display": "Classic Parkour"
+        },
+        {
+          "id": "race",
+          "display": "Parkour Races"
+        },
+        {
+          "id": "coop",
+          "display": "Co-Op"
+        },
+        {
+          "id": "pvp",
+          "display": "PVP"
+        },
+        {
+          "id": "wind",
+          "display": "Wind Parkour"
+        },
+        {
+          "id": "rush",
+          "display": "Map Rush"
+        },
+        {
+          "id": "mountaineering",
+          "display": "Mountaineering"
+        },
+        {
+          "id": "aqua",
+          "display": "Aqua"
+        },
+        {
+          "id": "cart",
+          "display": "Minecart Parkour"
+        },
+        {
+          "id": "misc",
+          "display": "Miscelaneous or Uncategorised"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:text",
+      "key": "xcoord",
+      "label": "Coordinates (x):",
+      "initial": "0"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "ycoord",
+      "label": "Coordinates (y):",
+      "initial": "0"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "zcoord",
+      "label": "Coordinates (z):",
+      "initial": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "submission",
+      "label": "I am trying to Submit a Map"
+    }
+  ],
+  "can_close_with_escape": false,
+  "after_action": "close",
+  "yes": {
+    "label": "Generate",
+    "width": 250,
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function parkour:generate_map {hex1:\"$(hex1)\",hex2:\"$(hex2)\",name:\"$(name)\",rank:\"$(rank)\",icon:\"$(icon)\",player:\"$(player)\",category:\"$(category)\",map_id:\"$(map_id)\",xcoord:\"$(xcoord)\",ycoord:\"$(ycoord)\",zcoord:\"$(zcoord)\"}"
+    }
+  },
+  "no": {
+    "label": "Close",
+    "width": 50
+  }
+}

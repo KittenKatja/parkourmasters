@@ -1,0 +1,46 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "contents": {
+              "items": "#parkour:kill_items"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "contents": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "gui": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "contents": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "map": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
